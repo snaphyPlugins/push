@@ -25,6 +25,7 @@ for more info : https://docs.strongloop.com/display/public/LB/Push+notifications
 
 
    //Create  models installation, application, notification and push.
+   //Now add models and GCM key detail to package.json file
 
 }
 `
