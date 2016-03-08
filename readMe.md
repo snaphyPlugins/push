@@ -7,7 +7,7 @@
 
 
 for more info : https://docs.strongloop.com/display/public/LB/Push+notifications
-`
+```
 	$npm install  loopback-component-push --save
 	
    //In server/datasources.json
@@ -28,7 +28,7 @@ for more info : https://docs.strongloop.com/display/public/LB/Push+notifications
    //Now add models and GCM key detail to package.json file
 
 }
-`
+```
 
 
 
