@@ -21,7 +21,7 @@
   },
   "bodystructure": {
     "asidebarHook": [],
-    "sidebarHook": [],
+    "sidebarHook": ["/pushService/views/sidebarHook.html"],
     "headerHook": [],
     "footerHook":[]
   },
