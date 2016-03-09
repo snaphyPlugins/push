@@ -1,8 +1,7 @@
 'use strict';
 module.exports = function( server, databaseObj, helper, packageObj) {
-	var pushService = require("./pushService")(server, databaseObj.Notification, databaseObj.Application, databaseObj.Push, packageObj);
+	
 	var push = require("./pushImplementation")(databaseObj.Application, databaseObj.Notification, databaseObj.Push);
-
 
 	/**
 	 * Here server is the main app object
@@ -18,7 +17,8 @@ module.exports = function( server, databaseObj, helper, packageObj) {
 	 * @return {[type]} [description]
 	 */
 	var init = function(){
-		
+		var pushService = require("./pushService")(server, databaseObj.Notification, databaseObj.Application, databaseObj.Push, packageObj);
+			
 	};
 
 
